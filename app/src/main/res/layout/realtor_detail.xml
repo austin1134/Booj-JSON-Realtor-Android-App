@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/listItemDetails"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.example.austi.boojjsonandroidapplication.RealtorDetailFragment"
+    tools:ignore="ExtraText"
+    android:weightSum="1">
+
+<ImageView
+    android:id="@+id/realtorPhoto"
+    android:layout_width="383dp"
+    android:layout_height="200dp"
+    tools:context="com.example.austi.boojjsonandroidapplication.RealtorDetailFragment"
+    android:layout_weight="0.30" />
+    />
+
+<TextView
+    android:id="@+id/realtorName"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:textAppearance="?attr/textAppearanceListItem" />
+
+<TextView
+    android:id="@+id/realtorPhoneNumber"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:textAppearance="?attr/textAppearanceListItem" />
+
+<TextView
+    android:id="@+id/rebrand"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:textAppearance="?attr/textAppearanceListItem" />
+
+<TextView
+    android:id="@+id/office"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/text_margin"
+    android:textAppearance="?attr/textAppearanceListItem" />
+
+
+</LinearLayout>
